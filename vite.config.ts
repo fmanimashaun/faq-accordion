@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
-  base: '/article-preview-component/',
+  base: '/faq-accordion/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

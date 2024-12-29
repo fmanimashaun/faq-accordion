@@ -1,9 +1,9 @@
 {
-  "name": "article-preview-component",
+  "name": "faq-accordion",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/fmanimashaun/article-preview-component",
+  "homepage": "https://github.com/fmanimashaun/faq-accordion",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
