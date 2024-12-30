@@ -29,6 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot/demo.gif)
+
 - Desktop
 
 <img src="./screenshot/desktop.png" alt="Desktop Image" width="1440px">
