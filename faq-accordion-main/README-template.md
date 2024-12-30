@@ -100,14 +100,14 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+👤 **Engr. Animashaun Fisayo**
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- [GitHub](https://github.com/fmanimashaun)
+- [Twitter](https://twitter.com/fmanimashaun)
+- [LinkedIn](https://www.linkedin.com/in/fmanimashaun/)
+- [Website](https://fmanimashaun.com)
+- [Blog](https://blog.fmanimashaun.com)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+This project was completed as part of the [Frontend Mentor](https://www.frontendmentor.io/) challenge. The platform provided an excellent opportunity to practice and refine my front-end skills through realistic project challenges.
