@@ -31,16 +31,16 @@ Users should be able to:
 
 - Desktop
 
-![](./screenshot/desktop.png)
+<img src="./screenshot/desktop.png" alt="Desktop Image" width="1440px">
 
 - Mobile
 
-![](./screenshot/mobile.png)
+<img src="./screenshot/mobile.png" alt="Mobile Image" width="375px">
 
 ### Links
 
-- [Solution URL ](https://github.com/fmanimashaun/article-preview-component)
-- [Live Site URL](https://fmanimashaun.github.io/article-preview-component/)
+- [Solution URL ](https://github.com/fmanimashaun/faq-accordion)
+- [Live Site URL](https://fmanimashaun.github.io/faq-accordion/)
 
 ## My process
 
@@ -56,7 +56,46 @@ Users should be able to:
 
 ### What I learned
 
-While working on this project, I strengthened my skills in creating responsive layouts with Flexbox and handling element visibility using the display property in CSS. This project also provided an opportunity to experiment with TypeScript in a frontend context, which helped me write more structured and error-resistant code.
+It was really cool to create an accordion without writing a single javascript code. To achieve this, i make use of the native accordion functionality provided my the sematic html `details` and `summary` as shown below:
+
+```html
+<details>
+  <summary>What is Frontend Mentor?</summary>
+  <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend skills.</p>
+</details>
+```
+
+Then I use css to manage the opening and closing state:
+
+```css
+details {
+  position: relative;
+}
+
+details summary {
+  list-style: none;
+  appearance: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+details summary::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url('path/to/closed-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+details[open] summary::after {
+  background-image: url('path/to/open-icon.svg');
+}
+
+```
 
 ### Continued development
 
